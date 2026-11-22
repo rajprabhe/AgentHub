@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "install-all": "npm install && cd backend/gateway && npm install && cd ../../frontend && npm install && cd ../backend/services/auth && npm install && cd ../chat && npm install && cd ../agent && npm install && cd ../billing && npm install",
     "test": "echo \"Error: no test specified\" && exit 1",
     "client":"npm run dev --prefix frontend",
     "gateway":"npm run dev --prefix backend/gateway",
