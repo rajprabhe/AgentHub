@@ -1,0 +1,12 @@
+# Ignore all .env files
+.env
+**/.env
+
+# Node modules
+node_modules/
+**/node_modules/
+
+
+# Google Cloud / Firebase credentials
+backend/services/auth/serviceAccountKey.json
+**/serviceAccountKey.json
